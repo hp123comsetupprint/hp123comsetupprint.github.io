@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Services | Printer Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .announcement-banner {
+      background-color: #ffdd57;
+      color: #333;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #005bb5;
+      padding: 1rem 1.5rem;
+    }
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+    nav .menu {
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    nav .cta {
+      background-color: #FFD700;
+      color: #005bb5;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    nav .cta:hover {
+      background-color: #e0b800;
+    }
+    header {
+      background-color: #0078D7;
+      color: white;
+      padding: 1.5rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    
+    h2 {
+      color: #0078D7;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+    .service-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+    .service-card h3 {
+      color: #005bb5;
+      margin-top: 1rem;
+    }
+    .service-card p {
+      color: #555;
+      font-size: 1rem;
+    }
+    .service-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #0078D7;
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .service-card a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      background-color: #005bb5;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="announcement-banner">
+    Limited Time Offer: Get 20% Off on All Printers! Shop Now!
+  </div>
+  
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#" class="logo">Printer Store</a>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="support.html">Support</a>
+      <a href="faqs.html">FAQs</a>
+      <a href="blog.html">Blogs</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <a href="#products" class="cta">Shop Now</a>
+  </nav>
+  
+  <header>
+    <h1>Printer Store</h1>
+    <p>Your Partner for All Printing Needs</p>
+  </header>
+  
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="services">
+      <div class="service-card">
+        <h3>Printer Setup</h3>
+        <p>Get your printer up and running with professional setup services.</p>
+        <a href="printer-setup.html">Learn More</a>
+      </div>
+      <div class="service-card">
+        <h3>Printer Troubleshooting</h3>
+        <p>Resolve common printer issues quickly and effectively.</p>
+        <a href="printer-troubleshooting.html">Learn More</a>
+      </div>
+      <div class="service-card">
+        <h3>Printer Repair</h3>
+        <p>Expert repair services for all major printer models.</p>
+        <a href="printer-repair.html">Learn More</a>
+      </div>
+      <div class="service-card">
+        <h3>Ink & Toner Replacement</h3>
+        <p>Affordable and fast ink and toner replacement services.</p>
+        <a href="ink-toner-replacement.html">Learn More</a>
+      </div>
+      <div class="service-card">
+        <h3>Printer Cleaning</h3>
+        <p>Keep your printer in top condition with regular cleaning.</p>
+        <a href="printer-cleaning.html">Learn More</a>
+      </div>
+      <div class="service-card">
+        <h3>Wireless Setup</h3>
+        <p>Set up wireless printing for your devices effortlessly.</p>
+        <a href="wireless-setup.html">Learn More</a>
+      </div>
+      <div class="service-card">
+        <h3>Paper Jam Fix</h3>
+        <p>Fix paper jams and ensure smooth printer operation.</p>
+        <a href="paper-jam-fix.html">Learn More</a>
+      </div>
+      <div class="service-card">
+        <h3>Software & Driver Updates</h3>
+        <p>Update your printer software for the best performance.</p>
+        <a href="software-driver-updates.html">Learn More</a>
+      </div>
+    </div>
+  </div>
+  
+  <footer>
+    <p>&copy; 2024 Printer Store | All Rights Reserved</p>
+  </footer>
+</body>
+</html>

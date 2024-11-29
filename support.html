@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support | Printer Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .announcement-banner {
+      background-color: #ffdd57;
+      color: #333;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #005bb5;
+      padding: 1rem 1.5rem;
+      flex-wrap: wrap;
+    }
+
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+
+    nav .menu {
+      display: flex;
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    nav .cta {
+      background-color: #FFD700;
+      color: #005bb5;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+      margin-top: 1rem;
+    }
+
+    nav .cta:hover {
+      background-color: #e0b800;
+    }
+
+    .container {
+      padding: 2rem 1rem;
+    }
+
+    h2 {
+      color: #0078D7;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+
+    .support-sections {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .support-card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .support-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .support-card h3 {
+      color: #005bb5;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+
+    .support-card p {
+      color: #555;
+      font-size: 1rem;
+      margin: 1rem 0;
+    }
+
+    .support-card a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      color: white;
+      background-color: #0078D7;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: background-color 0.3s ease;
+    }
+
+    .support-card a:hover {
+      background-color: #005bb5;
+    }
+
+    footer {
+      background-color: #005bb5;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    /* Mobile and Tablet Fixes */
+    @media (max-width: 768px) {
+      nav .menu {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+      }
+
+      nav .cta {
+        margin-top: 0;
+      }
+
+      .support-sections {
+        grid-template-columns: 1fr;
+        padding: 0 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="announcement-banner">
+    Limited Time Offer: Get 20% Off on All Printers! Shop Now!
+  </div>
+  
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#" class="logo">Printer Store</a>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="support.html">Support</a>
+      <a href="faqs.html">FAQs</a>
+      <a href="blog.html">Blogs</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <a href="#products" class="cta">Shop Now</a>
+  </nav>
+
+  <div class="container">
+    <h2>Support Services</h2>
+    <div class="support-sections">
+      <!-- Customer Support -->
+      <div class="support-card">
+        <h3>Customer Support</h3>
+        <p>Need help? Our dedicated customer support team is available 24/7 to assist you with any printer-related issues.</p>
+        <a href="mailto:info@example.com">Email Support</a>
+      </div>
+      <!-- Live Chat -->
+      <div class="support-card">
+        <h3>Live Chat</h3>
+        <p>Connect with our experts in real time through live chat. Get quick answers to your queries and solutions for your problems.</p>
+        <a href="live-chat.html">Start Chat</a>
+      </div>
+      <!-- FAQs -->
+      <div class="support-card">
+        <h3>FAQs</h3>
+        <p>Have questions? Browse our comprehensive FAQ section to find solutions to common issues and queries.</p>
+        <a href="faqs.html">View FAQs</a>
+      </div>
+      <!-- Technical Support -->
+      <div class="support-card">
+        <h3>Technical Support</h3>
+        <p>Our technical support team can resolve complex printer problems and ensure your device is running smoothly.</p>
+        <a href="#">Get Help</a>
+      </div>
+      <!-- Warranty Claims -->
+      <div class="support-card">
+        <h3>Warranty Claims</h3>
+        <p>If your printer is under warranty, we can assist with claim processing and repairs or replacements as needed.</p>
+        <a href="#warranty-claims">Claim Warranty</a>
+      </div>
+      <!-- Remote Assistance -->
+      <div class="support-card">
+        <h3>Remote Assistance</h3>
+        <p>Get expert help remotely with our secure remote access service for troubleshooting and repairs.</p>
+        <a href="#remote-assistance">Request Assistance</a>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Printer Store | All Rights Reserved</p>
+  </footer>
+</body>
+</html>

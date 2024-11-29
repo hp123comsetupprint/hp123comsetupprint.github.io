@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products | Printer Store</title>
+  <link href="https://fonts.googleapis.com/css2?family=Georgia&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .announcement-banner {
+      background-color: #ffdd57;
+      color: #333;
+      text-align: center;
+      padding: 0.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #005bb5;
+      padding: 1rem 1.5rem;
+    }
+    nav .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+    }
+    nav .menu {
+      display: flex;
+      gap: 1.5rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    nav .cta {
+      background-color: #FFD700;
+      color: #005bb5;
+      padding: 0.8rem 1.5rem;
+      border-radius: 5px;
+      font-size: 1rem;
+      font-weight: bold;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    nav .cta:hover {
+      background-color: #e0b800;
+    }
+
+/*    header {
+      background-color: #0078D7;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+*/
+    h2 {
+      color: #0078D7;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      justify-items: center;
+      padding: 2rem;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 100%;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
+    .card img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .card h3 {
+      color: #005bb5;
+      margin-top: 1rem;
+    }
+    .card p {
+      color: #555;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      background-color: #005bb5;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="announcement-banner">
+    Limited Time Offer: Get 20% Off on All Printers! Shop Now!
+  </div>
+
+  <!-- Navigation Bar -->
+  <nav>
+    <a href="#" class="logo">Printer Store</a>
+    <div class="menu">
+      <a href="index.html">Home</a>
+      <a href="products.html">Products</a>
+      <a href="services.html">Services</a>
+      <a href="support.html">Support</a>
+      <a href="faqs.html">FAQs</a>
+      <a href="blog.html">Blogs</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <a href="#products" class="cta">Shop Now</a>
+  </nav>
+<!--   <header>
+    <h1>Printer Store</h1>
+    <p>Your Partner for All Printing Needs</p>
+  </header> -->
+
+  <div class="container">
+    <h2>Our HP Products</h2>
+    <div class="products">
+      <!-- Product 1 -->
+      <a href="product1.html" class="card">
+        <img src="img/HP-LaserJet-Pro-MFP-M428fdw.png" alt="HP LaserJet Pro MFP M428fdw">
+        <h3>HP LaserJet Pro MFP M428fdw</h3>
+        <p>Fast printing, scanning, and copying with low energy consumption. Ideal for small to medium-sized businesses.</p>
+      </a>
+      <!-- Product 2 -->
+      <a href="product2.html" class="card">
+        <img src="img/HP-OfficeJet-Pro-9015.jpg" alt="HP OfficeJet Pro 9015">
+        <h3>HP OfficeJet Pro 9015</h3>
+        <p>Wireless, all-in-one printer designed to save time with powerful mobile printing capabilities and high print speeds.</p>
+      </a>
+      <!-- Product 3 -->
+      <a href="product3.html" class="card">
+        <img src="img/HP-ENVY-Photo-7855.jpg" alt="HP ENVY Photo 7855">
+        <h3>HP ENVY Photo 7855</h3>
+        <p>Perfect for photo printing, with wireless connectivity and the ability to print stunning color images for photos and documents.</p>
+      </a>
+      <!-- Product 4 -->
+      <a href="product4.html" class="card">
+        <img src="img/HP-DeskJet-2755e.jpg" alt="HP DeskJet 2755e">
+        <h3>HP DeskJet 2755e</h3>
+        <p>A budget-friendly printer that provides high-quality printing, scanning, and copying. Perfect for home use.</p>
+      </a>
+      <!-- Product 5 -->
+      <a href="product5.html" class="card">
+        <img src="img/hp-laserjet-pro-m15w.jpg" alt="HP LaserJet Pro M15w">
+        <h3>HP LaserJet Pro M15w</h3>
+        <p>Compact and efficient monochrome printer, perfect for small spaces and home offices with wireless printing capabilities.</p>
+      </a>
+      <!-- Product 6 -->
+      <a href="product6.html" class="card">
+        <img src="img/hp-pagewide-pro-577dw.jpg" alt="HP PageWide Pro 577dw">
+        <h3>HP PageWide Pro 577dw</h3>
+        <p>Ideal for high-volume print environments, providing fast and affordable color printing for businesses.</p>
+      </a>
+      <!-- Product 7 -->
+      <a href="product7.html" class="card">
+        <img src="img/hp-laserjet-pro-m428fdw.jpg" alt="HP LaserJet Pro MFP M428fdw">
+        <h3>HP LaserJet Pro MFP M428fdw</h3>
+        <p>High-speed performance and low energy consumption, ideal for offices that need a reliable all-in-one printer solution.</p>
+      </a>
+      <!-- Product 8 -->
+      <a href="product8.html" class="card">
+        <img src="img/hp-officejet-pro-9025.jpg" alt="HP OfficeJet Pro 9025">
+        <h3>HP OfficeJet Pro 9025</h3>
+        <p>Fast all-in-one printer with powerful mobile printing and wireless capabilities, suitable for businesses and homes alike.</p>
+      </a>
+      <!-- Product 9 -->
+      <a href="product9.html" class="card">
+        <img src="img/hp-laserjet-pro-m118dw.jpg" alt="HP LaserJet Pro M118dw">
+        <h3>HP LaserJet Pro M118dw</h3>
+        <p>Compact monochrome printer with excellent speed, performance, and wireless connectivity for small business environments.</p>
+      </a>
+      <!-- Product 10 -->
+      <a href="product10.html" class="card">
+        <img src="img/hp-envy-6055e.jpg" alt="HP Envy 6055e">
+        <h3>HP Envy 6055e</h3>
+        <p>Affordable photo printer that combines sleek design with wireless and mobile printing, ideal for home offices.</p>
+      </a>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2024 Printer Store | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
